@@ -8,41 +8,73 @@ export const personalInfo = {
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "IIAS",
+    location: "Reims, France",
+    position: "Ingénieur Data",
+    period: " Oct 2024 - Present",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Gestion et maintenance de l’Entrepôt de Données de Santé (EDS) du CHU de Reims : supervision de la qualité, de la cohérence et de la fiabilité des données.",
+      "Conception et développement d’un pipeline ELT pour l’intégration de nouvelles sources de données externes au CHU, élargissant la portée analytique du datalake.",
+      "Mise en place de contrôles de qualité et processus de montée en qualité des données (standardisation, historisation, gestion des nomenclatures).",
+      "Suivi et résolution des incidents liés à l’infrastructure data (Kubernetes, Vault, planification via Dagster, CI/CD avec ArgoCD).",
+      "Support aux équipes de recherche : extraction, transformation et mise à disposition des données de santé dans le cadre de projets scientifiques.",
+      "Extension de l’EDS à des sources non hospitalières, créant une interopérabilité entre le CHU de Reims et des partenaires externes.",
+      "Rédaction de documentations techniques et participation aux développements technologiques de l’institut.",
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "Préfecture de Police de Paris",
+    location: "Le Chesnay, France", 
+    position: "Ingénieur Data",
+    period: "Fév 2023 - Sep 2024",
     achievements: [
       "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
       "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
     ],
   },
   {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
+    company: "Liris",
+    location: "Lyon, France",
+    position: "SIngénieur Data, Stage",
+    period: "Mai 2022 - Jui 2022",
     achievements: [
       "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
       "Implemented JavaScript-based features like user authentication and real-time updates.",
     ],
   },
 ];
+
+export const techStack = [
+  {
+    category: "Langages & Scripts",
+    tools: ["Python", "SQL"],
+  },
+  {
+    category: "Orchestration & ELT",
+    tools: ["dbt", "Dagster"],
+  },
+  {
+    category: "Infrastructure & DevOps",
+    tools: ["Kubernetes", "Helm", "ArgoCD", "Vault", "GitLab CI/CD"],
+  },
+  {
+    category: "Base de données",
+    tools: ["ClickHouse"],
+  },
+  {
+    category: "Monitoring & Observabilité",
+    tools: ["Grafana"],
+  },
+  {
+    category: "Outils de documentation",
+    tools: ["Markdown", "Notion", "Git"],
+  },
+  {
+    category: "Analyse & Science des données",
+    tools: ["Jupyter", "Pandas"],
+  },
+];
+
 
 export const education = [
   {
