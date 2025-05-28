@@ -28,8 +28,13 @@ export const workExperience = [
     position: "Ingénieur Data",
     period: "Fév 2023 - Sep 2024",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Analyse des données de la flotte de véhicules en Île-de-France afin d'éclairer la prise de décision. (Python : Pandas, Plotly).",
+      "Automatisation des processus de validation des données pour garantir l'intégrité et la qualité des informations avec Python.",
+      "Développement de scripts ETL pour l'extraction, la transformation et le chargement des données avec Python.",
+      "Qualification et migration des données vers le système INFOR-EAM.",
+      "Création de rapports et tableaux de bord interactifs via IBM Cognos Analytics afin de rendre les données plus lisibles et compréhensibles.",
+      "Développement d'une application web interactive pour la gestion des commandes de véhicules avec Python et Flask.",
+      "Gestion de bases de données relationnelles avec Oracle SQL Developer.",
     ],
   },
   {
