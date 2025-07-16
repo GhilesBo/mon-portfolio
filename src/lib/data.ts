@@ -14,11 +14,12 @@ export const workExperience = [
     period: " Oct 2024 - Present",
     achievements: [
       "Gestion et maintenance de l’Entrepôt de Données de Santé (EDS) du CHU de Reims : supervision de la qualité, de la cohérence et de la fiabilité des données.",
-      "Conception et développement d’un pipeline ELT pour l’intégration de nouvelles sources de données externes au CHU, élargissant la portée analytique du datalake.",
-      "Mise en place de contrôles de qualité et processus de montée en qualité des données (standardisation, historisation, gestion des nomenclatures).",
+      "Développement et amélioration de modèles dbt dans les couches raw, staging et clean, afin d'assurer la standardisation, l’historisation et la montée en qualité des données.",
+      "Intégration de nouvelles sources de données via des connecteurs JDBC, avec mise en œuvre de pipelines ELT automatisés et scalables.",
       "Suivi et résolution des incidents liés à l’infrastructure data (Kubernetes, Vault, planification via Dagster, CI/CD avec ArgoCD).",
+      "Participation au projet HD4C : intégration dans l’EDS des données issues d’autres CHU et structures de santé (EHPAD, centres de soins), tout en garantissant la gouvernance locale et le contrôle de chaque établissement sur ses propres données.",
       "Support aux équipes de recherche : extraction, transformation et mise à disposition des données de santé dans le cadre de projets scientifiques.",
-      "Extension de l’EDS à des sources non hospitalières, créant une interopérabilité entre le CHU de Reims et des partenaires externes.",
+      "Création de jobs Dagster automatisés permettant l’intégration récurrente et sans intervention manuelle de nouvelles données dans l’EDS.",
       "Rédaction de documentations techniques et participation aux développements technologiques de l’institut.",
     ],
   },
@@ -28,55 +29,25 @@ export const workExperience = [
     position: "Ingénieur Data",
     period: "Fév 2023 - Sep 2024",
     achievements: [
-      "Analyse des données de la flotte de véhicules en Île-de-France afin d'éclairer la prise de décision. (Python : Pandas, Plotly).",
       "Automatisation des processus de validation des données pour garantir l'intégrité et la qualité des informations avec Python.",
       "Développement de scripts ETL pour l'extraction, la transformation et le chargement des données avec Python.",
       "Qualification et migration des données vers le système INFOR-EAM.",
-      "Création de rapports et tableaux de bord interactifs via IBM Cognos Analytics afin de rendre les données plus lisibles et compréhensibles.",
+      "Création de rapports et tableaux de bord interactifs via IBM Cognos Analytics afin de rendre les données plus lisibles et éclairer la prise de décision.",
       "Développement d'une application web interactive pour la gestion des commandes de véhicules avec Python et Flask.",
       "Gestion de bases de données relationnelles avec Oracle SQL Developer.",
     ],
   },
   {
-    company: "Liris",
+    company: "Liris - CNRS",
     location: "Lyon, France",
-    position: "SIngénieur Data, Stage",
+    position: "Ingénieur Data, Stage",
     period: "Mai 2022 - Jui 2022",
     achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
+      "Conception et mise en place d'un système polystore avec Polypheny-DB pour l'intégration de données hétérogènes.",
+      "Développement d'une plateforme numérique pour médecins et patients utilisant Java (Maven, Avatica, Calcite).",
+      "Assurance qualité et sécurisation des données médicales multi-sources : mise en œuvre de protocoles d’anonymisation, normalisation et contrôle d’accès fondés sur les principes FAIR et de confidentialité .",
+      "Packaging et orchestration Docker pour le déploiement reproductible de la solution sur environnements de test et démonstration.",
     ],
-  },
-];
-
-export const techStack = [
-  {
-    category: "Langages & Scripts",
-    tools: ["Python", "SQL"],
-  },
-  {
-    category: "Orchestration & ELT",
-    tools: ["dbt", "Dagster"],
-  },
-  {
-    category: "Infrastructure & DevOps",
-    tools: ["Kubernetes", "Helm", "ArgoCD", "Vault", "GitLab CI/CD"],
-  },
-  {
-    category: "Base de données",
-    tools: ["ClickHouse"],
-  },
-  {
-    category: "Monitoring & Observabilité",
-    tools: ["Grafana"],
-  },
-  {
-    category: "Outils de documentation",
-    tools: ["Markdown", "Notion", "Git"],
-  },
-  {
-    category: "Analyse & Science des données",
-    tools: ["Jupyter", "Pandas"],
   },
 ];
 
@@ -95,35 +66,62 @@ export const education = [
     ],
   },
 ];
+
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
     "Python",
-    "C++",
     "Java",
-    "Solidity",
+    "C++",
+    "R",
+    "Bash",
+    "SQL",
+  ],
+  dataEngineeringAndAnalytics: [
+    "dbt",
+    "Dagster",
+    "Apache Spark",
+    "Hadoop",
+    "ETL",
+    "Power BI",
+    "IBM Cognos Analytics",
+    "RShiny",
+  ],
+  mlAndAI: [
+    "Machine Learning",
+    "NLP",
+    "LLM",
+    "PyTorch",
+    "TensorFlow",
+  ],
+  databases: [
+    "PostgreSQL",
+    "MySQL",
+    "Oracle",
+    "MongoDB",
+    "NoSQL",
+  ],
+  cloudAndDevOps: [
+    "Azure",
+    "GCP",
+    "Kubernetes",
+    "Docker",
+    "Vault",
+    "ArgoCD",
+    "Git",
   ],
   frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
+    "Astro",
+    "React",
     "Shadcn UI",
     "Tailwind CSS",
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+  toolsAndPractices: [
+    "Jira",
+    "Confluence",
+    "Agile (Scrum)",
+    "Unix/Shell",
   ],
 };
 
