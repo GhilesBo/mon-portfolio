@@ -105,19 +105,7 @@ export const projects = [
 ];
 ```
 
-### 6. Awards
 
-```ts
-export const awards = [
-  {
-    name: "Award Name",
-    issuer: "Issuer",
-    date: "Date",
-    type: "Type",
-    position: "Position",
-  },
-];
-```
 
 ## 📦 Build for Production
 
