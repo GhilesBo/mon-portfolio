@@ -11,7 +11,7 @@ export const workExperience = [
     company: "IIAS",
     location: "Reims, France",
     position: "Ingénieur Data",
-    period: " Oct 2024 - Present",
+    period: " Jan 2024 - Present",
     achievements: [
       "Gestion et maintenance de l’Entrepôt de Données de Santé (EDS) du CHU de Reims : supervision de la qualité, de la cohérence et de la fiabilité des données.",
       "Développement et amélioration de modèles dbt dans les couches raw, staging et clean, afin d'assurer la standardisation, l’historisation et la montée en qualité des données.",
